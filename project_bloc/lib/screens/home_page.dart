@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project_bloc/bloc/addnote_bloc.dart';
-import 'package:project_bloc/bloc/bloc/status_bloc.dart';
 import 'package:project_bloc/bloc/login_bloc.dart';
 import 'package:project_bloc/constants/enum.dart';
 import 'package:project_bloc/constants/home_parameter.dart';

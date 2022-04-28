@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project_bloc/bloc/bloc/status_bloc.dart';
 import 'package:project_bloc/bloc/login_bloc.dart';
 import 'package:project_bloc/route/app_route.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -23,9 +22,7 @@ class MyApp extends StatelessWidget {
         BlocProvider<AddnoteBloc>(
           create: (context) => AddnoteBloc(),
         ),
-         BlocProvider<StatusBloc>(
-          create: (context) => StatusBloc(),
-        ),
+         
       ],
       child: MaterialApp(
           title: 'Flutter Demo',
